@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxFIN DE RESETxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* GLOBAL */
+
+body { 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	background: white;
+	line-height: 1.8em;
+ }
+
+a { 	text-decoration: none; }
+
+header { color: white;
+	margin-bottom: 30px;
+ 
+  }
+
+h1, h2, h3, h4, nav {	font-family: 'Slabo 27px', serif;}
+
+main { width: 1100px; 
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* GLOBAL */
+
+/* HEADER */
+
+header { margin-top: 100px;
+	text-align: center;
+
+}
+
+figure { background: #25b3b5;
+	border-top: 5px #1b9ca1 solid;
+	border-bottom: 5px #1b9ca1 solid;
+	padding: 2px;
+ }
+
+nav a { 
+	background: #1b9ca1;
+	color: white;
+	padding: 25px 15px 25px 15px;
+	border-radius: 0 0 10px 10px;
+	display: inline-block;
+	font-size: 1.4em;
+	margin-bottom: 20px;
+	transition: all, 1s, ease-in;
+}
+
+nav a:hover { padding-bottom: 10px; }
+
+/* HEADER */
+
+/* MAIN */
+
+/* ARTICLE */
+	.welcome {
+		border: 2px #1b9ca1 solid;
+		border-radius: 10px;
+		margin-bottom: 50px;
+	}
+
+	.welcome h1 { ;
+		background: #25b3b5;
+		font-size: 2.5em;
+		color: white;
+		text-align: center;
+		padding: 15px;
+		margin-bottom: 5px;
+	}
+
+	.welcome p { text-align: center; 
+		padding: 8px 30px 8px 30px;
+		color: #414a51;
+	}
+/* ARTICLE */
+
+/* SECTION */
+
+	section { width: 66%;
+		display: inline-block;
+		float: left;
+		background: #b7dfde;
+		border: 5px #1b9ca1 solid;
+		border-radius: 10px;
+		padding: 35px 30px 35px 25px;
+	 }
+
+	section h2 { text-align: center;
+		font-size: 3.5em;
+		color: #1b9ca2;
+		padding: 30px;
+	 }
+
+	.h2 { color: #444853; 
+	}
+
+	h3 { color: #444853;
+		font-size: 1.8em;
+		margin: 25px 0 15px 0;
+		text-align: center;
+	 }
+
+	h3 .fas { color: #1b9ca2; 
+		font-size: .8em;
+	}
+
+	main img { border-radius: 50%;
+		padding: 0 15px 10px 20px;
+		float: left;
+	 } 
+
+	section article { display: inline-block;
+		width: 50%;
+		color: #414a51
+	}
+
+.artgraph { float: right; }
+
+	section p { padding: 20px; }
+
+	.spana { 
+	 }
+
+	section a { color: white; 
+		font-family: 'Slabo 27px', serif;
+		float: right;
+		background: #1b9ca1;
+		border-radius: 10px;
+		padding: 5px 10px 5px 10px;
+		font-size: 1.2em;
+		margin: 15px;
+	}
+
+	section a:hover { color: #1b9ca1;
+		background: white;
+	 }
+
+	.fa-plus-circle { font-size: .8em;
+		padding-left: 5px;
+	 }
+
+/* SECTION */
+
+/* ASIDE */
+
+	aside { width: 20%;
+		display: inline-block;
+		float: right;
+		background: #25b3b5;
+		border: 5px #1b9ca1 solid;
+		border-radius: 10px;
+		color: white;
+		padding: 35px 35px 35px 25px;
+		font-size: 0.9em;
+	 }
+
+	 .aside3 { color: white; }
+
+	 aside a { color: #b5dfdb;
+	 	font-size: 0.8em;
+	 }
+
+	aside a:hover { color: white; }
+
+	 .fa-comment { font-size: 0.7em; }
+
+	 aside span { font-size: 1.5em;
+	   color: #b5dfdb;
+	}
+
+/* ASIDE */
+
+/* FOOTER */
+
+footer p { text-align: center;
+	margin-top: 30px;
+	font-size: 0.8em;
+	color: #414a51;
+ }
+
+/* FOOTER */
+
+/* MAIN */
